@@ -1,0 +1,68 @@
+header{width: 100%;
+    height:250px;
+    background-color: rgba(255, 174, 0, 0.685);
+    font-family: 'Fredoka One', cursive;
+     display:block;}
+ 
+header img{padding-left:60px;padding-top:-90px;}
+     header a{margin:10px;
+        top:15px;
+        font-size:2em;
+        position:relative;
+        left: 500px;
+        font-family: 'Fredoka One', cursive;border-radius:20px;
+        background-color: rgba(222, 184, 135, 0.568);
+        padding-left:5px;
+        padding-right:5px;}
+    header a:hover{background-color: rgba(110, 40, 10, 0.678);border-radius: 20px;}
+    header a:active{color:rgba(245, 124, 68, 0.993);}
+table {width: 70%;
+
+       margin-left: 15%;}
+table img{width: 250px;
+          height: 250px;
+          border-radius: 2px;}
+          table h2 {color: rgba(255, 174, 0, 0.685) ;
+            text-align: left;
+            font-family: 'Fredoka One', cursive;}
+            table p{font-family: 'PT Sans Narrow', sans-serif;}
+          h1{
+            color: rgb(219, 17, 17) ;
+            text-align: center;
+            font-family: 'Fredoka One', cursive;}
+    
+        h2{color:  rgb(219, 17, 17);
+            text-align: center;
+            font-family: 'Fredoka One', cursive;}
+        p{font-family: 'PT Sans Narrow', sans-serif;}
+footer{width: 99%;
+    height: 250px;
+            background-color: rgb(0, 0, 0);
+            font-family: 'Fredoka One', cursive;
+            display:block;
+            position:absolute;}
+            footer img{top:10px; padding-left:650px;}
+        
+             p em{color:  rgb(255, 255, 255) ;
+                 padding-left: 47%;}
+                    aside{display: block;}
+                    aside#whatsapp { width: 45px; height: 45px; display: block; margin: 0; float: none; position: fixed; bottom: 50px; right: 15px; z-index: 99998; }
+                    aside#whatsapp a { width: 100%; height: auto; display: block; margin: 0; float: none; position: relative; background: #00bb2d; color: #fff; font-size: 1.5em; text-align: center; padding: 6px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+                    aside#whatsapp a:hover { transition: all 0.3s ease-in; background: #00771c ; }
+                    
+                    aside#scroll-top { width: 45px;height: 45px;display: block;margin: 0;float: none;position: fixed;bottom: 75px;right: 20px; z-index: 99997; }
+                    aside#scroll-top a { width: 100%;height: auto;display: block;margin: 0;float: none;position: relative;background: #080bc5 ;color: #fff;font-size: 1.5em;text-align: center;line-height: 1em;padding: 10px 0;border-radius: 50%;transition: all 0.3s ease-in; }
+                    aside#scroll-top a:hover { background: #000; transition: all 0.3s ease-in; }
+                    
+                    
+                    aside#menu-moviles { display: none; width: 290px; height: 100%; margin: 0; float: none; position: fixed; top: 0; left: -290px; z-index: 99999; background: #0509d39a }
+                    
+                    aside#menu-moviles a#abrir { width: 39px; height: auto; display: block; margin: 0; float: none; position: absolute; top: 22px; right: -39px; z-index: 1; background: #080bc5; color: #fff; font-size: 1.3em; text-align: center; line-height: 1em; padding: 9.5px 0; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+                    aside#menu-moviles a#abrir:hover { transition: all 0.3s ease-in; background: #232485;; }
+                    
+                    aside#menu-moviles a#cerrar { width: 39px; height: auto; display: none; margin: 0; float: none; position: absolute; top: 22px; right: -39px; z-index: 2; background: #080bc5; color: #fff; font-size: 1.3em; text-align: center; line-height: 1em; padding: 9.5px 0; border-radius: 0 5px 5px 0; transition: all 0.3s ease-in; }
+                    aside#menu-moviles a#cerrar:hover { transition: all 0.3s ease-in;  }
+                    
+                    aside#menu-moviles nav { width: 70%; height: auto; display: block; margin: 50px 0 auto; float: none; position: relative; }
+                    aside#menu-moviles nav a { width: 100%; height: auto; display: block; margin: 0 auto; float: none; position: relative; font-size: 1.5em; line-height: 1em; text-align: center; color: #fff; letter-spacing: 0.1em; font-weight: 500; padding: 15px 0 15px 65px; text-decoration: none; transition: all 0.3s ease-in; }
+                    aside#menu-moviles nav a:hover { transition: all 0.3s ease-in; color: #000; }
